@@ -10,12 +10,7 @@ import { Canvas, useLoader } from "@react-three/fiber";
 // import { MainBuilding } from "./BuilingsJsx/MainBuilding";
 
 import { MainBuilding } from "./BuilingsJsx/MainBuilding";
-import { Dinning } from "./BuilingsJsx/Dinning";
-import { D_common } from "./BuilingsJsx/D_common";
-import { Drawing } from "./BuilingsJsx/Drawing";
-import { Kitchen } from "./BuilingsJsx/Kitchen";
-import { K_common } from "./BuilingsJsx/K_common.jsx";
-import { H_stairs } from "./BuilingsJsx/H_stairs.jsx";
+
 
 import { UIManager } from "./canvasUI/UIManager";
 
@@ -99,46 +94,9 @@ export const EnviroCanvas = () => {
 					/>
 
 					<UIManager />
-
 					<MainBuilding />
-					<Drawing />
-					<D_common />
-					<Dinning />
-					<Kitchen />
-					<K_common />
-					<H_stairs />
 
-					{/*
-					<Building />
-					<BedRoom />
-					<Drawing />
-					<Kitchen_1 />
-					<Kitchen_2 />
-					<Hall />
-					<Stairs />
-					<StudyArea />
-					<SwimmingPool />
-					<MasterBedRoom /> 
-					*/}
 
-					{/* 
-					<AccumulativeShadows
-						resolution={1024}
-						frames={100}
-						color={"#8fa2be"}
-						alphaTest={0.68}
-						colorBlend={1.5}
-						opacity={1.65}
-						scale={8}
-					>
-						<RandomizedLight
-							radius={2.6}
-							ambient={0.3}
-							position={[10, 5, -15]}
-							bias={0.001}
-						/>
-					</AccumulativeShadows>  
-					*/}
 					<Environment
 						files="https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/peppermint_powerplant_2_1k.hdr"
 						background
