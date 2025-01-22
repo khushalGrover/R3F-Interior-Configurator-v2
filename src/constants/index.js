@@ -1,22 +1,18 @@
 
 const annotations = [
-	{
-		position: [16.483, 2.5, -15.337],
-		focusLocation: "Drawing Room",
-		tIndex: 2,
-	},
-	{ position: [17, 2.5, -21], focusLocation: "Dinning Table", tIndex: 4 },
-	{ position: [19, 3, -20], focusLocation: "Kitchen", tIndex: 6 },
-	{ position: [29, 3.5, -15], focusLocation: "Guest Room", tIndex: 7 },
-	{ position: [27, 3.5, -7], focusLocation: "Swimming Pool", tIndex: 1 },
+	{ position: [10, 12, 12], focusLocation: "Home Exterior", tIndex: 1 },
+	{ position: [-7, 4, 7], focusLocation: "Drawing Room", tIndex: 2,},
+	{ position: [0, 8, -2], focusLocation: "Dinning Table", tIndex: 4 },
+	{ position: [-7, 4, -2], focusLocation: "Kitchen", tIndex: 6 },
+	{ position: [4, 4, -3], focusLocation: "Washroom", tIndex: 7 },
 	{ position: [24, 5, -15], focusLocation: "Study Room", tIndex: 8 },
-	{ position: [16, 7, -11], focusLocation: "Master Bed Room", tIndex: 9 },
+	{ position: [0, 3.5, -2], focusLocation: "Bed Room", tIndex: 9 },
 ];
 
 const interactionBtns = [
-	{ target: "dSofa", offset: [16.9, 2, -16.7], name: "Sofa", objectId: "66eda54d86e886d461b050f0" },
-	{ target: "dSelf", offset: [15.2, 2.301, -17.85], name: "Cabinet" , objectId: "66eda57086e886d461b0511b" },
-	{ target: "dTable", offset: [16.873, 1.7, -15.301], name: "Table", objectId: "66eda53986e886d461b050d0"  },
+	{ target: "dSofa", offset: [-5, 3, 6.5], name: "Sofa", objectId: "66eda54d86e886d461b050f0" },
+	{ target: "dSelf", offset: [-8, 3, 5], name: "Cabinet" , objectId: "66eda57086e886d461b0511b" },
+	{ target: "dTable", offset: [-7, 3, 7], name: "Table", objectId: "66eda53986e886d461b050d0"  },
 	{ target: "dRug", offset: [17.5, 1.472, -16], name: "Rug", objectId: "66eda55a86e886d461b05104"  },
 	{ target: "dnClock", offset: [15.9, 3.295, -21.151], name: "Clock", objectId: "66eda88586e886d461b05313"  },
 	{ target: "dnLamp", offset: [16.928, 3.619, -21.346], name: "Lamp", objectId: "66edb0fb86e886d461b05a01"  },
@@ -36,6 +32,7 @@ const subMenuItems = [
 		updateObjectCodeValues: [
 			{ value: "Classic", targetValue: 0 },
 			{ value: "Modern", targetValue: 1 },
+			{ value: "Simple", targetValue: 2 },
 		],
 	},
 	{

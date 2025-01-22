@@ -8,7 +8,7 @@ import {
 import { Canvas, useLoader } from "@react-three/fiber";
 
 // import { MainBuilding } from "./BuilingsJsx/MainBuilding";
-
+import { Drawing2 } from "./BuilingsJsx/Drawing2";
 import { MainBuilding } from "./BuilingsJsx/MainBuilding";
 
 
@@ -38,12 +38,14 @@ export const EnviroCanvas = () => {
 		// console.log("Location: " + loc);
 		const views = [
 			{
-				position: { x: 32, y: 5, z: 0 },
-				target: { x: 27, y: 2, z: -10 },
+				// Roof Top 
+				position: { x: 15, y: 13, z: 15 },
+				target: { x: -5, y: 8, z: 0 },
 			},
 			{
-				position: { x: 14, y: 3.2, z: -18 },
-				target: { x: 17, y: 1.5, z: -15.4 },
+				// dinning room
+				position: { x:-2, y: 4, z: 6 },
+				target: { x: -7, y: 3, z: 7 },
 			},
 			{
 				position: { x: 18, y: 3, z: -16 },
@@ -58,20 +60,23 @@ export const EnviroCanvas = () => {
 				target: { x: 20, y: 3, z: -20 },
 			},
 			{
-				position: { x: 19, y: 3.5, z: -21 },
-				target: { x: 20, y: 3, z: -19 },
+				// kitchen -7, 4, -2
+				position: { x: -7, y: 4, z: 5 },
+				target: { x: -7, y: 4, z: -2 },
 			},
 			{
-				position: { x: 31.5, y: 4, z: -16 },
-				target: { x: 28.9, y: 2.5, z: -15.5 },
+				// Washroom 
+				position: { x: 3, y: 4, z: -0.9 },
+				target: { x: 4, y: 3.5, z: -3 },
 			},
 			{
 				position: { x: 25, y: 6, z: -15.2 },
 				target: { x: 22, y: 6, z: -15.5 },
 			},
 			{
-				position: { x: 18, y: 6, z: -10 },
-				target: { x: 16.5, y: 6, z: -11 },
+				// bedroom 0, 4, -2
+				position: { x: 0, y: 4, z: 2 },
+				target: { x: 0, y: 4, z: -2 },
 			},
 		];
 		const view = views[loc - 1];
@@ -95,6 +100,7 @@ export const EnviroCanvas = () => {
 
 					<UIManager />
 					<MainBuilding />
+					<Drawing2 />
 
 
 					<Environment
