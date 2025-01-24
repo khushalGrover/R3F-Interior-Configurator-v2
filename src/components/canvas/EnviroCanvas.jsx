@@ -1,3 +1,4 @@
+import React, { useEffect, useState, useRef, Suspense, lazy } from "react";
 import {
 	CameraControls,
 	Environment,
@@ -9,12 +10,11 @@ import { Canvas, useLoader } from "@react-three/fiber";
 
 // import { MainBuilding } from "./BuilingsJsx/MainBuilding";
 import { Drawing2 } from "./BuilingsJsx/Drawing2";
+import { Kitchen2 } from "./BuilingsJsx/Kitchen2";
+import { Common2 } from "./BuilingsJsx/Common2";
 import { MainBuilding } from "./BuilingsJsx/MainBuilding";
 
-
 import { UIManager } from "./canvasUI/UIManager";
-
-import React, { useEffect, useState, useRef, Suspense, lazy } from "react";
 import { useCustomization } from "../../constants/Customization";
 
 export const EnviroCanvas = () => {
@@ -100,7 +100,9 @@ export const EnviroCanvas = () => {
 
 					<UIManager />
 					<MainBuilding />
+					<Common2 />
 					<Drawing2 />
+					<Kitchen2 />
 
 
 					<Environment

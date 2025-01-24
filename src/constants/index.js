@@ -2,25 +2,22 @@
 const annotations = [
 	{ position: [10, 12, 12], focusLocation: "Home Exterior", tIndex: 1 },
 	{ position: [-7, 4, 7], focusLocation: "Drawing Room", tIndex: 2,},
-	{ position: [0, 8, -2], focusLocation: "Dinning Table", tIndex: 4 },
+	// { position: [0, 8, -2], focusLocation: "Dinning Table", tIndex: 4 },
 	{ position: [-7, 4, -2], focusLocation: "Kitchen", tIndex: 6 },
 	{ position: [4, 4, -3], focusLocation: "Washroom", tIndex: 7 },
-	{ position: [24, 5, -15], focusLocation: "Study Room", tIndex: 8 },
+	// { position: [24, 5, -15], focusLocation: "Study Room", tIndex: 8 },
 	{ position: [0, 3.5, -2], focusLocation: "Bed Room", tIndex: 9 },
 ];
 
 const interactionBtns = [
 	{ target: "dSofa", offset: [-5, 3, 6.5], name: "Sofa", objectId: "66eda54d86e886d461b050f0" },
-	{ target: "dSelf", offset: [-8, 3, 5], name: "Cabinet" , objectId: "66eda57086e886d461b0511b" },
-	{ target: "dTable", offset: [-7, 3, 7], name: "Table", objectId: "66eda53986e886d461b050d0"  },
-	{ target: "dRug", offset: [17.5, 1.472, -16], name: "Rug", objectId: "66eda55a86e886d461b05104"  },
-	{ target: "dnClock", offset: [15.9, 3.295, -21.151], name: "Clock", objectId: "66eda88586e886d461b05313"  },
-	{ target: "dnLamp", offset: [16.928, 3.619, -21.346], name: "Lamp", objectId: "66edb0fb86e886d461b05a01"  },
-	{ target: "dnTable", offset: [16.928, 2.5, -20.8], name: "Table", objectId: "66eda8ba86e886d461b05364"  },
-	{ target: "ktTap", offset: [20, 2.672, -19.84], name: "Tap", objectId: "66edaa7c86e886d461b0537c"  },
-	{ target: "ktLamp", offset: [20.111, 3.556, -19.587], name: "Lamp", objectId: "66edaa9786e886d461b05393"  },
+	// { target: "dnClock", offset: [15.9, 3.295, -21.151], name: "Clock", objectId: "66eda88586e886d461b05313"  },
+	// { target: "dnLamp", offset: [16.928, 3.619, -21.346], name: "Lamp", objectId: "66edb0fb86e886d461b05a01"  },
+	// { target: "dnTable", offset: [16.928, 2.5, -20.8], name: "Table", objectId: "66eda8ba86e886d461b05364"  },
+	{ target: "ktTap", offset: [-9.5, 3.5, -2.4], name: "Tap", objectId: "66edaa7c86e886d461b0537c"  },
+	// { target: "ktLamp", offset: [20.111, 3.556, -19.587], name: "Lamp", objectId: "66edaa9786e886d461b05393"  },
 	// { target: "ktTable", offset: [19.5, 2.672, -19.84], name: "Table", objectId: "66a1303166f6f9795fba887c"  },
-	{ target: "ktChair", offset: [20.138, 2.5, -18.28], name: "Chair", objectId: "66edaac186e886d461b053bd"  },
+	// { target: "ktChair", offset: [20.138, 2.5, -18.28], name: "Chair", objectId: "66edaac186e886d461b053bd"  },
 	// { target: "hwTable", offset: [30, 2, -16], name: "Table", objectId: "66a145a60315ecf0580e6e3e"  },
 ];
 
@@ -62,6 +59,7 @@ const subMenuItems = [
 			{ value: "5", targetValue: 4 },
 			{ value: "6", targetValue: 5 },
 			{ value: "7", targetValue: 6 },
+			{ value: "8", targetValue: 7 },
 		],
 	},
 	{

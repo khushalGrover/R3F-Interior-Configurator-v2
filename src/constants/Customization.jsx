@@ -193,7 +193,7 @@ export const CustomizationProvider = (props) => {
 		// ktTap: parseInt(objectCode.charAt(27)),
 	};
 
-	// console.log(codeOBJ, "!!! codeOBJ");
+	console.log(codeOBJ, "!!! codeOBJ");
 	return (
 		<CustomizationContext.Provider
 			value={{
