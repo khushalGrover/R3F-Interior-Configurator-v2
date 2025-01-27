@@ -26,7 +26,7 @@ export function Common2(props) {
 
     return (
         <>
-            <primitive object={kt2_common_item.scene} />
+            {/* <primitive object={kt2_common_item.scene} /> */}
 			<primitive object={d2_common_item.scene} />
 			<primitive object={mb2_common_item.scene} />
 			<primitive object={br2_common_item.scene} />

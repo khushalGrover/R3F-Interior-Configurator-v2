@@ -7,7 +7,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function MainBuilding(props) {
-  const { nodes, materials } = useGLTF('./models/Modern House_Interior_v2.5.gltf')
+  const { nodes, materials } = useGLTF('./models/Modern House_Interior_v2.6.gltf')
   return (
     <group {...props} dispose={null}>
       <group position={[-2.967, 1.64, 1.714]}>
@@ -45,4 +45,4 @@ export function MainBuilding(props) {
   )
 }
 
-useGLTF.preload('./models/Modern House_Interior_v2.5.gltf')
+useGLTF.preload('./models/Modern House_Interior_v2.6.gltf')

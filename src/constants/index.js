@@ -15,8 +15,8 @@ const interactionBtns = [
 	// { target: "dnLamp", offset: [16.928, 3.619, -21.346], name: "Lamp", objectId: "66edb0fb86e886d461b05a01"  },
 	// { target: "dnTable", offset: [16.928, 2.5, -20.8], name: "Table", objectId: "66eda8ba86e886d461b05364"  },
 	{ target: "ktTap", offset: [-9.5, 3.5, -2.4], name: "Tap", objectId: "66edaa7c86e886d461b0537c"  },
-	// { target: "ktLamp", offset: [20.111, 3.556, -19.587], name: "Lamp", objectId: "66edaa9786e886d461b05393"  },
-	// { target: "ktTable", offset: [19.5, 2.672, -19.84], name: "Table", objectId: "66a1303166f6f9795fba887c"  },
+	{ target: "ktLamp", offset: [-6.5, 5, 0], name: "Lamp", objectId: "66edaa9786e886d461b05393"  },
+	{ target: "ktTable", offset: [-9, 2.8, -2], name: "Table", objectId: "66a1303166f6f9795fba887c"  },
 	// { target: "ktChair", offset: [20.138, 2.5, -18.28], name: "Chair", objectId: "66edaac186e886d461b053bd"  },
 	// { target: "hwTable", offset: [30, 2, -16], name: "Table", objectId: "66a145a60315ecf0580e6e3e"  },
 ];

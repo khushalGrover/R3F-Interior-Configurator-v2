@@ -9,6 +9,7 @@ import {
 import { Canvas, useLoader } from "@react-three/fiber";
 
 // import { MainBuilding } from "./BuilingsJsx/MainBuilding";
+import { Kt2_common } from "./BuilingsJsx/Kt2_common";
 import { Drawing2 } from "./BuilingsJsx/Drawing2";
 import { Kitchen2 } from "./BuilingsJsx/Kitchen2";
 import { Common2 } from "./BuilingsJsx/Common2";
@@ -103,6 +104,7 @@ export const EnviroCanvas = () => {
 					<Common2 />
 					<Drawing2 />
 					<Kitchen2 />
+					<Kt2_common />
 
 
 					<Environment
